@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div class="Calculator ">
+        <div class="item input-item">
+            <input type='text' class='inputTexst' readonly>
+        </div>
+        <div class="item " onclick="Meaning('1')">1</div>
+        <div class="item" onclick="Meaning('2')">2</div>
+        <div class="item" onclick="Meaning('3')">3</div>
+        <div class="item item-C" onclick="delete_All()">C</div>
+        <div class="item" onclick="Meaning('4')">4</div>
+        <div class="item" onclick="Meaning('5')">5</div>
+        <div class="item" onclick="Meaning('6')">6</div>
+        <div class="item" onclick="Meaning('7')">7</div>
+
+        <div class="item" onclick="Meaning('8')">8 </div>
+
+        <div class="item" onclick="Meaning('9')">9</div>
+        <div class="item item_one_delete" onclick="deleteOne()">&lAarr; </div>
+        <div class="item" onclick="Meaning('*')">&times;</div>
+
+
+        <div class="item" onclick="Meaning('+')">+</div>
+        <div class="item" onclick="Meaning('-')">-</div>
+
+
+        <div class="item" onclick="Meaning('/')">&divide;</div>
+        <div class="item" onclick="Meaning('(')">(</div>
+        <div class="item" onclick="Meaning(')')">)</div>
+        <div class="item" onclick="Meaning('.')">.</div>
+        <div class="item item_zero" onclick="Meaning('0')">0</div>
+
+
+
+        <div class="item item-equals" onclick="operations()">=</div>
+        <div class="item item_zero" onclick="Meaning('00')">00</div>
+
+    </div>
+
+</body>
+<script src='./index.js'></script>
+
+</html>
